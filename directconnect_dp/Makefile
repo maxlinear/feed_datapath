@@ -12,6 +12,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=directconnect-dp
 PKG_RELEASE:=1
 PKG_SOURCE_VERSION:=1.5.18
+PKG_VERSION:=$(PKG_SOURCE_VERSION)
 PKG_SOURCE_PROTO:=git
 PKG_PROJECT:=maxlinear
 PKG_SOURCE_NAME:=dc_dp_drv
